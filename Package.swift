@@ -43,13 +43,13 @@ let package = Package(
         .executableTarget(
             name: "AppModule",
             path: ".",
+            exclude: ["App/Assets.xcassets"],
             sources: ["App/ContentView.swift", "App/MyApp.swift", "App/Utilities", "Engine", "Managers", "Models", "Views"],
             resources: [
                 .process("App/Assets.xcassets"),
                 .process("App/Resources")
-            ],
-            exclude: ["App/Assets.xcassets"]
+            ]
         )
     ],
-    swiftLanguageVersions: [.version("6")]
+    swiftLanguageModes: [.version("6")]
 )

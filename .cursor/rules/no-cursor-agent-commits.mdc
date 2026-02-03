@@ -1,0 +1,10 @@
+---
+description: Git commits and PRs — local only, single author, no Cursor in contributors
+alwaysApply: true
+---
+
+# Git commits and PRs (local only)
+
+- **Author for all commits**: Use only **Dhruv Gohil \<dhruvgohil448@gmail.com\>**. Do not set or suggest any other author or committer.
+- **Do not** add `Co-authored-by: Cursor <cursoragent@cursor.com>` or any Cursor/cursoragent co-author line. Commit messages must list only the human author so Cursor never appears in the repo Contributors.
+- **Commits and PRs are done locally**: Do not create commits or open PRs on the user's behalf through the IDE. Suggest commit messages and changes; the user will run `git commit` and create/merge PRs locally (e.g. via GitHub CLI or the GitHub website).
