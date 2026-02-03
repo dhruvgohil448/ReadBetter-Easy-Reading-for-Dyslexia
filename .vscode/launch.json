@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ReadBetter.swiftpm}",
+            "name": "Debug ReadBetter",
+            "program": "${workspaceFolder:ReadBetter.swiftpm}/.build/debug/ReadBetter",
+            "preLaunchTask": "swift: Build Debug ReadBetter"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ReadBetter.swiftpm}",
+            "name": "Release ReadBetter",
+            "program": "${workspaceFolder:ReadBetter.swiftpm}/.build/release/ReadBetter",
+            "preLaunchTask": "swift: Build Release ReadBetter"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+# Swift Package Manager
+.build/
+.swiftpm/configuration/package.xcworkspace/xcshareddata/
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Build artifacts
+build/
+*.o
+*.a
+*.dylib
+*.so
+
+# IDE
+.idea/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
